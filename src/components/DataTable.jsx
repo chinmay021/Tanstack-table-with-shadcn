@@ -18,7 +18,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-import { DataTablePagination } from "./ui/Pagination";
+import { DataTablePagination } from "./Pagination";
 import { useEffect, useState } from "react";
 import { Checkbox } from "./ui/checkbox";
 
@@ -44,7 +44,7 @@ const EditableCell = ({
   return (
     <div className="text-left ">
       <input
-      className=""
+        className=""
         value={value}
         onChange={(e) => setValue(e.target.value)}
         onBlur={onBlur}
